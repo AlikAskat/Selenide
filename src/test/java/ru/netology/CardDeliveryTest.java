@@ -23,6 +23,6 @@ class CardDeliveryTest {
         form.$("[class='checkbox__box']").click();
         form.$("[class='button button_view_extra button_size_m button_theme_alfa-on-white']").click();
         $(byText("Забронировать")).click();
-        $("[data-test-id='notification']").waitUntil(Condition.visible, 10000);
+        $("[data-test-id='notification']").waitUntil(Condition.visible, 15000);
     }
 }
